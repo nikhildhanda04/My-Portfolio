@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Velcan';
+    src: url('./assets/fonts/velcan-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Velvenda';
+    src: url('./assets/fonts/velvenda-megablack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
