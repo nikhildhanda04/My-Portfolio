@@ -4,8 +4,8 @@ import { User as ProfileIcon } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white bg-opacity-30 font-[velcan] fixed backdrop-blur-sm  w-full top-0 left-0 z-50 px-10 py-8 flex justify-between items-center    ">
-      <h1 className="text-[30px] text-[#333333] underline  font-bold">MyWebsite</h1>
+    <nav className="bg-white bg-opacity-10 font-[velcan] fixed backdrop-blur-sm  w-full top-0 left-0 z-50 px-10 py-8 flex justify-between items-center    ">
+      <h1 className="text-[30px] text-[white] underline  font-bold">MyWebsite</h1>
 
       <ul className="flex space-x-8 text-[22px] items-end">
         <li>
@@ -13,7 +13,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="text-gray-700 hover:text-gray-900 cursor-pointer"
+            className="text-white hover:text-gray-900 cursor-pointer"
           >
             Home
           </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
-            className="text-gray-700 hover:text-gray-900 cursor-pointer"
+            className="text-white hover:text-gray-900 cursor-pointer"
           >
             Projects
           </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="text-gray-700 hover:text-gray-900 cursor-pointer"
+            className="text-white hover:text-gray-900 cursor-pointer"
           >
             Contact
           </Link>
