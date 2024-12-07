@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import skillBeltVideo from '../assets/skill-belt.mp4';
 import reactLogo from '../assets/react.svg';
-import aeLogo from '../assets/ae.svg';
-import tailwindLogo from '../assets/tailwind.svg';
+import aeLogo from '../assets/Ae.svg';
+import tailwindLogo from '../assets/Tailwind.svg';
 import cppLogo from '../assets/Cpp.svg';
 import DavinciLogo from '../assets/Davinci.svg';
 import FigmaLogo from '../assets/Figma.svg';
