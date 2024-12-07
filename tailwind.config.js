@@ -1,6 +1,6 @@
-const textShadowPlugin = require('tailwindcss-textshadow');
+import textShadowPlugin from 'tailwindcss-textshadow';
 
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}",
