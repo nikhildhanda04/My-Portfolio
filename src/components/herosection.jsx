@@ -62,7 +62,7 @@ const Herosection = () => {
             opacity: hoveredSide === 'right' ? 0 : 1,
             transform: `scale(${hoveredSide === 'left' ? 1.2 : 1})`,
             bottom: hoveredSide === 'left' ? '-5%' : '-2%',
-            right: hoveredSide === 'left' ? '5%' : '-33%',
+            right: hoveredSide === 'left' ? '5%' : '-37%',
             height: hoveredSide === 'left' ? '90%' : '81%',
             zIndex: hoveredSide === 'left' ? 10 : 0,
           }}
@@ -126,7 +126,7 @@ const Herosection = () => {
             opacity: hoveredSide === 'left' ? 0 : 1,
             transform: `scale(${hoveredSide === 'right' ? 1.2 : 1})`,
             bottom: hoveredSide === 'right' ? '-0%' : '-11%',
-            left: hoveredSide === 'right' ? '5%' : '-42%',
+            left: hoveredSide === 'right' ? '5%' : '-48%',
             height: hoveredSide === 'right' ? '90%' : '102%',
             zIndex: hoveredSide === 'right' ? 10 : 0,
           }}

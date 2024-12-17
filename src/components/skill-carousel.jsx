@@ -73,7 +73,7 @@ const Skillcarousel = () => {
             ></video>
 
             <div className="relative z-10 flex flex-col items-center justify-start pt-[150px] px-[90px] h-full text-white">
-                <h1 className="font-[velvenda] text-[90px] font-bold">My Skills</h1>
+                <h1 className="font-[velvenda] text-[90px] font-bold text-shadow-custom">My Skills</h1>
 
                 <div className="absolute top-[300px] flex w-full justify-between px-10">
                     <button onClick={scrollLeft} className="p-3 bg-black bg-opacity-50 rounded-full">
@@ -85,7 +85,7 @@ const Skillcarousel = () => {
                 </div>
                 <div
                     ref={carouselRef}
-                    className="w-full mt-[100px] flex gap-10 overflow-x-auto scrollbar-hide"
+                    className="w-full mt-[100px] flex gap-10 overflow-x-auto scrollbar-hide "
                 >
                     {[...logos, ...logos].map((logo, index) => (
                         <img key={index} src={logo} alt={`Logo ${index}`} className="h-54 w-auto" />
@@ -99,8 +99,8 @@ const Skillcarousel = () => {
                     display: none;
                 }
                 .scrollbar-hide {
-                    -ms-overflow-style: none; /* IE and Edge */
-                    scrollbar-width: none; /* Firefox */
+                    -ms-overflow-style: none; 
+                    scrollbar-width: none;
                 }
                 `}
             </style>

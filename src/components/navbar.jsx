@@ -4,7 +4,7 @@ import { User as ProfileIcon } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white bg-opacity-10 font-[velcan] fixed backdrop-blur-sm  w-full top-0 left-0 z-50 px-10 py-8 flex justify-between items-center    ">
+    <nav className="   bg-opacity-10 font-[velcan] fixed   w-full top-0 left-0 z-50 px-10 py-8 flex justify-between items-center    ">
       <h1 className="text-[30px] text-[white] underline  font-bold">MyWebsite</h1>
 
       <ul className="flex space-x-8 text-[22px] items-end">
