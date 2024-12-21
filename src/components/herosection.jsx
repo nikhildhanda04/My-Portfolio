@@ -11,9 +11,9 @@ const Herosection = () => {
         onMouseEnter={() => setHoveredSide('left')}
         onMouseLeave={() => setHoveredSide(null)}
       >
-        <div className="absolute inset-0 bg-[#5FD374]">
+        <div className="absolute inset-0 bg-[#00403B]">
           <h2 
-            className="absolute text-shadow-custom font-[velvenda] pt-[100px] text-[#01531A] font-bold transition-all duration-700 ease-in-out"
+            className="absolute text-shadow-custom font-[velvenda] pt-[100px] text-[#7DCFEA] font-bold transition-all duration-700 ease-in-out"
             style={{
               fontSize: hoveredSide === 'right' ? '40px' : '100px',
               left: hoveredSide === 'left' ? '300px' : '50%',
@@ -45,7 +45,7 @@ const Herosection = () => {
               aspiring developer and software engineer.
             </p>
             <button 
-              className="px-6 py-2 rounded-full ml-[300px] bg-[#01531A] text-white hover:bg-[#01531A]/80 transition-all duration-300 ease-in-out"
+              className="px-6 py-2 rounded-full ml-[300px] bg-[#7DCFEA] text-white hover:bg-[#7DCFEA]/80 transition-all duration-300 ease-in-out"
               style={{
                 transform: hoveredSide === 'left' ? 'translateY(0)' : 'translateY(20px)',
               }}
@@ -75,9 +75,9 @@ const Herosection = () => {
         onMouseEnter={() => setHoveredSide('right')}
         onMouseLeave={() => setHoveredSide(null)}
       >
-        <div className="absolute inset-0 bg-[#B0E0E6]">
+        <div className="absolute inset-0 bg-[#1E155F]">
           <h2 
-            className="absolute text-shadow-custom font-[velvenda] pt-[100px] text-[#152E83] font-bold transition-all duration-700 ease-in-out"
+            className="absolute text-shadow-custom font-[velvenda] pt-[100px] text-[#FF55AA] font-bold transition-all duration-700 ease-in-out"
             style={{
               fontSize: hoveredSide === 'left' ? '40px' : '100px',
               right: hoveredSide === 'right' ? '300px' : '50%',
@@ -93,7 +93,7 @@ const Herosection = () => {
           </h2>
           <div className={`absolute inset-0 flex flex-col items-end justify-center transition-opacity duration-700 ${hoveredSide === 'right' ? 'opacity-100' : 'opacity-0'}`}>
             <h3 
-              className="text-[#55427A] text-shadow-custom text-[80px] pt-[200px] pr-[250px] mb-4 font-[gothic] transition-all duration-700 ease-in-out"
+              className="text-[#ffff] text-shadow-custom text-[80px] pt-[200px] pr-[250px] mb-4 font-[gothic] transition-all duration-700 ease-in-out"
               style={{
                 transform: hoveredSide === 'right' ? 'translateY(0)' : 'translateY(20px)',
               }}
@@ -101,7 +101,7 @@ const Herosection = () => {
               hey! I am Nikhil, a
             </h3>
             <p 
-              className="text-[#55427A] text-shadow-custom text-[80px] mt-[-40px] mb-6 font-[gothic] pr-[250px] text-right max-w-[50%] leading-[90px] transition-all duration-700 ease-in-out"
+              className="text-[#ffff] text-shadow-custom text-[80px] mt-[-40px] mb-6 font-[gothic] pr-[250px] text-right max-w-[50%] leading-[90px] transition-all duration-700 ease-in-out"
               style={{
                 transform: hoveredSide === 'right' ? 'translateY(0)' : 'translateY(20px)',
               }}

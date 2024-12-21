@@ -1,14 +1,13 @@
 import React, { useRef, useEffect } from 'react';
-import skillBeltVideo from '../assets/skill-belt.mp4';
-import reactLogo from '../assets/react.svg';
-import aeLogo from '../assets/Ae.svg';
-import tailwindLogo from '../assets/Tailwind.svg';
-import cppLogo from '../assets/Cpp.svg';
-import DavinciLogo from '../assets/Davinci.svg';
-import FigmaLogo from '../assets/Figma.svg';
-import HtmlLogo from '../assets/Html.svg';
-import jsLogo from '../assets/js.svg';
-import pythonLogo from '../assets/Python.svg';
+import reactLogo from '../../assets/react.svg';
+import aeLogo from '../../assets/Ae.svg';
+import tailwindLogo from '../../assets/Tailwind.svg';
+import cppLogo from '../../assets/Cpp.svg';
+import DavinciLogo from '../../assets/Davinci.svg';
+import FigmaLogo from '../../assets/Figma.svg';
+import HtmlLogo from '../../assets/Html.svg';
+import jsLogo from '../../assets/js.svg';
+import pythonLogo from '../../assets/Python.svg';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Skillcarousel = () => {
@@ -61,19 +60,10 @@ const Skillcarousel = () => {
     }, []);
 
     return (
-        <div className="relative h-screen w-full">
+        <div className="relative h-screen w-full bg-gray-800">
   
-            <video
-                className="absolute top-0 left-0 h-full w-full object-cover opacity-90"
-                src={skillBeltVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-            ></video>
-
             <div className="relative z-10 flex flex-col items-center justify-start pt-[150px] px-[90px] h-full text-white">
-                <h1 className="font-[velvenda] text-[90px] font-bold text-shadow-custom">My Skills</h1>
+                <h1 className="font-[velvenda] text-[90px] font-bold text-shadow-custom text-yellow-400">My Skills</h1>
 
                 <div className="absolute top-[300px] flex w-full justify-between px-10">
                     <button onClick={scrollLeft} className="p-3 bg-black bg-opacity-50 rounded-full">

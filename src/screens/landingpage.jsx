@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from "../components/navbar";
+import Navbar from "../components/NavBar/navbar";
 import Herosection from '../components/herosection';
-import Skillcarousel from '../components/skill-carousel';
+import Skillcarousel from '../components/SkillCarousel/skill-carousel';
 import Skill from '../components/skill';
 const LandingPage = () => {
   return (
@@ -14,7 +14,7 @@ const LandingPage = () => {
       <Skillcarousel />
       </div>
       <div>
-        <Skill />
+      <Skill />
       </div>
     </div>
   );
